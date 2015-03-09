@@ -1,4 +1,4 @@
-package mx.unam.computoMovil.battleship;
+package mx.unam.computomovil.battleship;
 
 import android.content.res.Configuration;
 import android.graphics.Color;
@@ -17,6 +17,8 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+
 
 public class MyActivity extends ActionBarActivity {
 

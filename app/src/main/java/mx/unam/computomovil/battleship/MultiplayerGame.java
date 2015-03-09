@@ -1,4 +1,4 @@
-package mx.unam.computoMovil.battleship;
+package mx.unam.computomovil.battleship;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -43,6 +43,8 @@ import java.util.HashMap;
 import java.util.Random;
 import java.util.Set;
 import java.util.Stack;
+
+
 
 public class MultiplayerGame extends android.support.v4.app.Fragment {
 

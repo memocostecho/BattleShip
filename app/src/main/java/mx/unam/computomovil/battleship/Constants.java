@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package mx.unam.computoMovil.battleship;
+package mx.unam.computomovil.battleship;
 
 /**
  * Defines several constants used between {@link BluetoothChatService} and the UI.

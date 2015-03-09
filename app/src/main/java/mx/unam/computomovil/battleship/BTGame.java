@@ -1,4 +1,4 @@
-package mx.unam.computoMovil.battleship;
+package mx.unam.computomovil.battleship;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -40,7 +40,7 @@ import java.util.HashMap;
 import java.util.Random;
 import java.util.Stack;
 
-import mx.unam.computoMovil.battleship.R;
+
 
 public class BTGame extends android.support.v4.app.Fragment {
 
@@ -637,7 +637,7 @@ public class BTGame extends android.support.v4.app.Fragment {
                     @Override
                     public boolean onTouch(View view, MotionEvent motionEvent) {
 
-                        Log.d("Se hizo touch en la vista", getResources().getResourceEntryName(view.getId()));
+                        Log.d("Se hizo touch en ", getResources().getResourceEntryName(view.getId()));
 
                         if (comenzoJuego && esMiTurno) {
 

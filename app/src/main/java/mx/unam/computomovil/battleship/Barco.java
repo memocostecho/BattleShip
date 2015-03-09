@@ -1,4 +1,4 @@
-package mx.unam.computoMovil.battleship;
+package mx.unam.computomovil.battleship;
 
 import android.widget.ImageView;
 

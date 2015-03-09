@@ -1,4 +1,4 @@
-package mx.unam.computoMovil.battleship;
+package mx.unam.computomovil.battleship;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -21,6 +21,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
+
+
 
 public class Scores extends android.support.v4.app.Fragment {
 

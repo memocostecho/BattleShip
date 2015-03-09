@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package mx.unam.computoMovil.battleship;
+package mx.unam.computomovil.battleship;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -25,7 +25,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.SyncStateContract;
-
+import android.util.Log;
 
 
 import java.io.IOException;
@@ -33,7 +33,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.UUID;
 
-import mx.unam.computoMovil.battleship.common.logger.Log;
+
 
 /**
  * This class does all the work for setting up and managing Bluetooth

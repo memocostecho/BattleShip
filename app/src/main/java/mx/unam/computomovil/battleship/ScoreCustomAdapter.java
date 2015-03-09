@@ -1,4 +1,4 @@
-package mx.unam.computoMovil.battleship;
+package mx.unam.computomovil.battleship;
 
 /**
  * Created by yasminegutierrez on 1/6/15.
@@ -17,6 +17,8 @@ package mx.unam.computoMovil.battleship;
 
         import java.util.ArrayList;
         import java.util.List;
+
+
 
 public class ScoreCustomAdapter extends ArrayAdapter<Score> {
 
