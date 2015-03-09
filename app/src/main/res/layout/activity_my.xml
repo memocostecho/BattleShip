@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity"
+    android:background="@drawable/camufas">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jugar"
+            android:id="@+id/play"
+            android:layout_gravity="center_horizontal"
+            android:onClick="irAJuego"
+            android:textColor="#fffbfffd"
+            android:textSize="40dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creditos"
+            android:id="@+id/credits"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fffbfffd"
+            android:textSize="40dp"
+            android:onClick="irACreditos" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salir"
+            android:id="@+id/exit"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fffbfffd"
+            android:textSize="40dp"
+            android:onClick="salir" />
+    </LinearLayout>
+</RelativeLayout>

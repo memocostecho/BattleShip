@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="mx.unam.computoMovil.battleship.Game" >
+    <item android:id="@+id/rotarBarco"
+        android:title="Rotar barco"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>
